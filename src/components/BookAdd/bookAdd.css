@@ -1,0 +1,117 @@
+.modal-load-gif{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.modal-gif-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-bar__add-btn{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+
+.main-modal{
+    width: 30%;
+    margin: 100px auto;
+    background: white;
+    box-shadow: 0px 24px 32px rgb(0 0 0 / 4%), 0px 16px 24px rgb(0 0 0 / 4%), 0px 4px 8px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    border-radius: 20px;
+}
+
+
+.main-modal__modal-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    height: 100%;
+}
+
+.modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #e7e7e7;
+    margin-bottom: 20px;
+}
+
+.modal-header__title{
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+.modal-header__close{
+    border: none;
+    margin-right: 35px;
+    font-size: 30px;
+    background: none;
+}
+
+.modal-body__main-box{
+    width: 100%;
+}
+
+.modal__form{
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    margin-left: 35px;
+}
+
+.modal__form-label{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.modal__form-input{
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 8px;
+    margin-left: 15px;
+}
+
+
+.modal-footer{
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.modal-footer__close-btn{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+
+.modal-footer__add-btn{
+    margin-right: 53px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

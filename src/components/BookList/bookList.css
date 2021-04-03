@@ -1,0 +1,58 @@
+.main-div__books-wrapper{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-between;
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+}
+
+.main-div__book-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+    box-shadow: 0px 24px 32px rgb(0 0 0 / 4%), 0px 16px 24px rgb(0 0 0 / 4%), 0px 4px 8px rgb(0 0 0 / 4%), 0px 0px 1px rgb(0 0 0 / 4%);
+    border-radius: 20px;
+    padding: 10px 20px 30px 20px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+.main-div__book-image{
+    background-image: url(../../assets/img/book.png);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-div__book-buttons-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.main-div__book-edit-btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.main-div__book-del-btn{
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
